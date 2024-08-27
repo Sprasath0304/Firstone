@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-25T12:38:08 IST" name="suite" finished-at="2024-08-25T12:38:23 IST" duration-ms="14920">
+    <groups>
+      <group name="regression">
+        <method signature="TC002Loginpage.verify_login()[pri:0, instance:testbase.TC002Loginpage@1e0b4072]" name="verify_login" class="testbase.TC002Loginpage"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC001registerpage.verifyaccount_register()[pri:0, instance:testbase.TC001registerpage@7b36aa0c]" name="verifyaccount_register" class="testbase.TC001registerpage"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC001registerpage.verifyaccount_register()[pri:0, instance:testbase.TC001registerpage@7b36aa0c]" name="verifyaccount_register" class="testbase.TC001registerpage"/>
+        <method signature="TC002Loginpage.verify_login()[pri:0, instance:testbase.TC002Loginpage@1e0b4072]" name="verify_login" class="testbase.TC002Loginpage"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-08-25T12:38:08 IST" name="mastertest" finished-at="2024-08-25T12:38:23 IST" duration-ms="14920">
+      <class name="testbase.TC001registerpage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testbase.TC001registerpage@7b36aa0c]" started-at="2024-08-25T12:38:09 IST" name="setup" finished-at="2024-08-25T12:38:14 IST" duration-ms="5227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyaccount_register()[pri:0, instance:testbase.TC001registerpage@7b36aa0c]" started-at="2024-08-25T12:38:14 IST" name="verifyaccount_register" finished-at="2024-08-25T12:38:17 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaccount_register -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testbase.TC001registerpage@7b36aa0c]" started-at="2024-08-25T12:38:17 IST" name="close" finished-at="2024-08-25T12:38:18 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testbase.TC001registerpage -->
+      <class name="testbase.TC002Loginpage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testbase.TC002Loginpage@1e0b4072]" started-at="2024-08-25T12:38:18 IST" name="setup" finished-at="2024-08-25T12:38:20 IST" duration-ms="2754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testbase.TC002Loginpage@1e0b4072]" started-at="2024-08-25T12:38:20 IST" name="verify_login" finished-at="2024-08-25T12:38:23 IST" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testbase.TC002Loginpage@1e0b4072]" started-at="2024-08-25T12:38:23 IST" name="close" finished-at="2024-08-25T12:38:23 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testbase.TC002Loginpage -->
+    </test> <!-- mastertest -->
+  </suite> <!-- suite -->
+</testng-results>

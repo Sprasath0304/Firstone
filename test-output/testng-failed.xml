@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="untilize.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="mastertest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testbase.TC002Loginpage">
+        <methods>
+          <include name="verify_login"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testbase.TC002Loginpage -->
+    </classes>
+  </test> <!-- mastertest(failed) -->
+</suite> <!-- Failed suite [suite] -->
